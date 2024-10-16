@@ -101,8 +101,10 @@ public class Methods {
 	public static int[] filledArray(int length, int value) {
 		int[] values = null; // FIXME: Create an array of the appropriate size
 		// TODO: Finish this method
-
-		
+	    values = new int[length];
+	    for(int i=0;i<length;i++) {
+	    	values[i]=value;
+	    }
 
 		return values;
 	}
