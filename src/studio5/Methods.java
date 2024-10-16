@@ -108,6 +108,11 @@ public class Methods {
 
 		return values;
 	}
+	/**
+	 * 
+	 * @param array
+	 * @return
+	 */
 	public static double arrayMean(int [] array) {
 		double mean = 0;
 
